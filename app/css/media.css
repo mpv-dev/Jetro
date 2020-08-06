@@ -1,0 +1,109 @@
+@media (max-width: 960px){
+    .header__menu-btn{
+        display: block;
+    }
+    .meyu__list{
+        display: none;
+        position: absolute;
+        z-index: 2;
+        top: 77px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: #fff;
+        border-bottom: 4px solid #e8603c;
+    }
+    .meyu__list li{
+        display: block;
+        text-align: center;
+    }
+    .meyu__list li + li{
+        margin-left: 0;
+    }
+    .meyu__list a{
+        padding: 12px 0 12px 11px;
+        font-weight: 400;
+        display: block;
+        text-transform: none;
+    }
+    .meyu__list li +li a{
+        border-top: 1px solid #e7e7e7;
+    }
+    .content__block{
+        flex-wrap: wrap;
+    }
+    .content__block-title + div{
+        margin-left: 0px;
+    }
+    .content__block-title{
+        width: 50%;
+        padding-right: 20px;
+        margin-bottom: 40px;
+    }
+    .block__title{
+        margin-bottom: 15px;
+    }
+    .content {
+        padding: 43px 0 0;
+    }
+    .title__socials {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 940px){
+    .rw__title-block{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .footer__block{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footer__block-box{
+        width: 50%;
+    }
+    .title__socials {
+        max-width: 90%;
+    }
+    .rw__title-inner{
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 920px){
+    .footer__block-box{
+        justify-content: space-between;    
+    }
+}
+
+@media (max-width: 600px){
+    .content__block-title{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .footer__block{
+        padding: 40px 0px 0 15px;
+    }
+}
+
+@media (max-width: 510px){
+    .slider__item-baner {
+        left: 0;
+        width: 100%;
+        bottom: 0;
+    }
+    .footer__block-box{
+        width: 100%;
+    }
+    .slick-arrow{
+        display: none;
+        z-index: -1;
+    }
+    .slider__item {
+        min-height: 300px;
+    }
+    .title__socials {
+        max-width: 100%;
+    }
+}
